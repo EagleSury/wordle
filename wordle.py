@@ -3,10 +3,6 @@
 # wordle
 #########################################################
 
-# This is the "main" portion of your game.
-# Any code that uses stdin or stdout (i.e., input() and print())
-# should go in this file.
-
 import wordle_engine
 import random
 import sys
