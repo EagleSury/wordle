@@ -32,7 +32,7 @@ while turn <= 6:  # making sure that the user has maximum six tries
     if len(guess) != 5:  # ensure that length of guess is exactly 5
         print("Please enter a 5 letter word!")
         continue
-    if guess not in choice_list:  # ensure that guess is a valid word
+    if guess not in valid_words:  # ensure that guess is a valid word
         print("not a valid word. Please try again.")
         continue
     if guess == target:  # check if user won (in order to finish and exit)
